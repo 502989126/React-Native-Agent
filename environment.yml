@@ -1,0 +1,14 @@
+name: rn-multimodal-agent
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - fastapi
+      - "uvicorn[standard]"
+      - pydantic-settings
+      - python-multipart
+      - pytest
+      - httpx
+      - ruff
